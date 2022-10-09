@@ -19,6 +19,7 @@ public class AppendCommand extends Command{
     public String execute() {
         System.out.println("Enter Text");
         String line = in.nextLine();
+        document.append(line);
         return line;
     }
 }
