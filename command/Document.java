@@ -84,7 +84,7 @@ public class Document {
             }
         }
         String border = new String();
-        for(int i = 0; i <= longestLineLength + 12; i++){
+        for(int i = 0; i <= longestLineLength + 10; i++){
             border += "_";
         }
         return border;

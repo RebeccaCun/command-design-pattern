@@ -23,7 +23,7 @@ public class WriteCommand extends Command {
      * @return A string representation of the document being written into.
      */
     public String execute() {
-        System.out.println("Enter text: ");
+        System.out.print("Enter text: ");
         return document.write(in.nextLine());
     }
 }
