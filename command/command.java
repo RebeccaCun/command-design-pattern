@@ -1,13 +1,8 @@
-//package command;
+package command;
 
-public interface command {
+public interface Command {
     protected Document document;
 
-    public Command(Document document){
-        this.document = document;
-    }
-    public static String execute(){
-        return " ";
-    }
-
+    public Command(Document document);
+    public String execute();
 }
