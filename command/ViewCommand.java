@@ -1,7 +1,9 @@
-public class ViewCommand {
-    public ViewCommand(Document doc)
-    {
+package command;
 
+public class ViewCommand extends Command{
+
+    public ViewCommand(Document doc){
+        super(doc);
     }
     public String execute(){
         return " ";

@@ -3,10 +3,10 @@ package command;
 import java.util.Scanner;
 
 public class WriteCommand extends Command {
-    private in Scanner;
+    private Scanner in;
     
     public WriteCommand(Document doc) {
-
+        super(doc);
     }
 
     public String execute() {

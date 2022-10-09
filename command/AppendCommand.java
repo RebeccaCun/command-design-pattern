@@ -1,11 +1,14 @@
-public class AppendCommand implements Command{
-    private in Scanner;
+package command;
+
+import java.util.Scanner;
+
+public class AppendCommand extends Command{
+    private Scanner in;
 
     public AppendCommand(Document doc){
-        this.doc = doc;
+        super(doc);
     }
-    public String execute()
-    {
+    public String execute(){
         return " ";
     }
 }
