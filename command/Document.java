@@ -2,9 +2,9 @@ package command;
 
 import java.util.ArrayList;
 
-/** @author Luca Ossendorf
- * 
- * implements methods to view/modify the Document 
+/** 
+ * implements methods to view/modify the Document
+ * @author Cyber Council 
  */
 public class Document {
     private String fileName;

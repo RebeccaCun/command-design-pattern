@@ -1,6 +1,7 @@
 package command;
 /** 
  * allows user to view Doc
+ * @author Cyber Council
  */
 public class ViewCommand extends Command{
     /**

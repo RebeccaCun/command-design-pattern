@@ -3,6 +3,7 @@ package command;
 import java.util.Scanner;
 /**
  * appends doc to add new sentences
+ * @author Cyber Council
  */
 public class AppendCommand extends Command{
     private Scanner in;
