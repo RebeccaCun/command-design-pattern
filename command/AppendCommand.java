@@ -12,14 +12,13 @@ public class AppendCommand extends Command{
      */
     public AppendCommand(Document doc){
         super(doc);
+        in = new Scanner(System.in);
     }
     /**
      * @return String of whats being added
      */
     public String execute() {
-        System.out.println("Enter Text");
-        String line = in.nextLine();
-        document.append(line);
-        return line;
+        System.out.print("Enter Text: ");
+        return document.append(in.nextLine());
     }
 }

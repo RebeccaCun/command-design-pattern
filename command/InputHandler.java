@@ -34,9 +34,7 @@ public class InputHandler {
         for (String key : commands.keySet()) {
             
             if (data.equalsIgnoreCase(key)) {
-                commands.get(key).execute();
-                // System.out.println(commands.get(key).execute());
-
+                System.out.println(commands.get(key).execute() + "\n");
                 break;
             }
         }
